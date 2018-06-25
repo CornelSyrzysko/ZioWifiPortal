@@ -1,0 +1,31 @@
+.main-login{
+    width: 100%;
+}
+a{
+    color: white;
+    text-decoration: underline;
+}
+
+.check{
+    width: 18px;
+    height: 18px;
+    margin-right: 3px;
+}
+
+.login-p1{
+    text-align: center;
+    color: #333333;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: azure;
+    margin: 0;
+}
+
+.login-p2{
+    text-align: center;
+    color: #333333;
+    padding-top: 0px;
+    padding-bottom: 7px;
+    background-color: #a9a9a9;
+    margin: 0;
+}
