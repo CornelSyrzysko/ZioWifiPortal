@@ -1,0 +1,19 @@
+/* Century Gothic */
+
+.back{
+    margin: auto;
+    background-color: rgba(236, 234, 234, 0.568);
+    padding: 1%;
+    height: 500px;
+    width: 96%;
+    border: 2px transparent white;
+    border-radius: 0px 0px 15px 15px;
+}
+
+ .logoBack{ 
+    background-color: #555555;
+    border: 2px transparent white;
+    border-radius: 0px 0px 15px 15px;
+    height: 500px;
+
+} 
