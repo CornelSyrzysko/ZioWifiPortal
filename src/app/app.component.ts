@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   
-  termsofuse = false;
+  termsofuse = false;;
 
   switch(terms: boolean){
     this.termsofuse = terms;

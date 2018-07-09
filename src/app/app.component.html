@@ -2,18 +2,18 @@
 <!-- https://github.com/CornelTolmay/ZioWifiPortal.git -->
 
 <div class="main-body">
-        <div class="logoBack" style="height: 98vh">
-            <div class="container">
-                    <app-header></app-header>
-            </div>
-            <div class="container" style="flex: 1;">
-                <app-content *ngIf="termsofuse === false"></app-content>
-                <app-termsofuse *ngIf="termsofuse === true"></app-termsofuse>
-            </div>
-            <div class="container">
-                    <app-login (terms) = "switch($event)"></app-login>
-            </div>
-        </div>
+   <div class="logoBack" style="height: 98vh">
+      <div class="container">
+         <app-header></app-header>
+      </div>
+      <div class="container" style="flex: 1;">
+         <app-content *ngIf="termsofuse === false"></app-content>
+         <app-termsofuse *ngIf="termsofuse === true"></app-termsofuse>
+      </div>
+      <div class="container">
+         <app-login (terms) = "switch($event)"></app-login>
+      </div>
+   </div>
 </div>
 
     

@@ -1,7 +1,9 @@
 .main-login{
     position: relative;
     width: 100%;
+    margin-top: 3px;
 }
+
 a{
     color: azure;
     text-decoration: underline;
@@ -42,7 +44,6 @@ a{
     background-color: #a76501;
     box-shadow: 0px 0px;
     transform: translate(3px,3px);
-    /* transform: translate() */
     color: rgb(148, 138, 138);
 }
 
