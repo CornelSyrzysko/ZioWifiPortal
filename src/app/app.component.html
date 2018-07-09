@@ -7,10 +7,11 @@
                     <app-header></app-header>
             </div>
             <div class="container" style="flex: 1;">
-                <app-content></app-content>
+                <app-content *ngIf="termsofuse === false"></app-content>
+                <app-termsofuse *ngIf="termsofuse === true"></app-termsofuse>
             </div>
             <div class="container">
-                    <app-login></app-login>
+                    <app-login (terms) = "switch($event)"></app-login>
             </div>
         </div>
 </div>

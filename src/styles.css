@@ -2,9 +2,7 @@
 body{
     background-image: url("assets/images/bg-narrow.png");    
     background-size: cover;
-}
-
-p{
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
+
 

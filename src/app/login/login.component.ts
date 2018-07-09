@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-login',
@@ -6,10 +6,15 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
- checked = false;
+  checked = false;
+  @Output() terms = new EventEmitter<boolean>();
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onSwitch(tou: boolean){
+    this.terms.emit(tou)
   }
 
 }

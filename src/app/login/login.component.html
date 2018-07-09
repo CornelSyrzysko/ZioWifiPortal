@@ -1,13 +1,23 @@
 <div class="main-login">
-    <!-- <p class="login-p1">Get your FREE WIFI code on your slip when shopping at Zio</p> -->
-    <input class ="check" type="checkbox" (change)="checked=!checked">
-    <p class="login-p1">        
-        I  agree to the <a>Terms of Service and Acceptable Use Polilcy</a>
-    </p>
-    <div class="voucher">
-        <button 
-        class="orange-btn"
-        [disabled]="!checked">
-        CONNECT</button>
-    </div>
+   <!-- <p class="login-p1">Get your FREE WIFI code on your slip when shopping at Zio</p> -->
+   <table>
+      <tr class="toa">
+         <td class="toa-checkbox">
+            <input class ="check" type="checkbox" (change)="checked=!checked" checked> 
+         </td>
+         <td class="toa-agree">
+            <p class="login-p1">        
+               I  agree to the <a href="#" (click)="onSwitch(true)">Terms of Service and Acceptable Use Polilcy</a>
+            </p> 
+         </td>
+      </tr>
+   </table>
+      
+      
+   <div class="voucher">
+      <button 
+      class="orange-btn"
+      [disabled]="checked">
+      CONNECT</button>
+   </div>
 </div>
